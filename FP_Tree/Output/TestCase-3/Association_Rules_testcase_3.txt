@@ -1,0 +1,72 @@
+***
+TEST CASE 3
+
+MINIMUM SUPPORT = 130
+
+MINIMUM CONFIDENCE = 0.8
+
+Rules Generated:
+Number of times pregnant:>=5 and <=7  ---> Body mass index (weight in kg/(height in m)^2):>25  0.875
+
+Plasma glucose concentration a 2 hours in an oral glucose tolerance test:111-126  ---> Body mass index (weight in kg/(height in m)^2):>25  0.83125
+
+Plasma glucose concentration a 2 hours in an oral glucose tolerance test:127-150  ---> Body mass index (weight in kg/(height in m)^2):>25  0.9054054054054054
+
+Plasma glucose concentration a 2 hours in an oral glucose tolerance test:150+  ---> Body mass index (weight in kg/(height in m)^2):>25  0.9448275862068966
+
+Diastolic blood pressure (mm Hg):>60 and <=80  ---> Body mass index (weight in kg/(height in m)^2):>25  0.8426966292134831
+
+Triceps skin fold thickness (mm):>38  ---> 2-Hour serum insulin (mu U/ml):>210  0.8238805970149253
+
+Plasma glucose concentration a 2 hours in an oral glucose tolerance test:44-98  ---> Tested Positive for Diabetes?:No  0.92
+
+Triceps skin fold thickness (mm):>38  ---> Body mass index (weight in kg/(height in m)^2):>25  0.8328358208955224
+
+2-Hour serum insulin (mu U/ml):>210  ---> Body mass index (weight in kg/(height in m)^2):>25  0.8240534521158129
+
+Diastolic blood pressure (mm Hg):>60 and <=80 Triceps skin fold thickness (mm):>38  ---> 2-Hour serum insulin (mu U/ml):>210  0.8043478260869565
+
+Diabetes pedigree function: >= 1.0148000000000001 and <= 1.4832000000000003  ---> Body mass index (weight in kg/(height in m)^2):>25  0.8244274809160306
+
+Diabetes pedigree function: >= 1.4832000000000003 and <= 1.9516000000000002  ---> Body mass index (weight in kg/(height in m)^2):>25  0.865979381443299
+
+Diastolic blood pressure (mm Hg):>60 and <=80 Triceps skin fold thickness (mm):>38  ---> Body mass index (weight in kg/(height in m)^2):>25  0.842391304347826
+
+Age (years): >= 21 and <= 33  ---> Body mass index (weight in kg/(height in m)^2):>25  0.8020618556701031
+
+Age (years): >= 33 and <= 45  ---> Body mass index (weight in kg/(height in m)^2):>25  0.9333333333333333
+
+Diastolic blood pressure (mm Hg):>60 and <=80 2-Hour serum insulin (mu U/ml):>210  ---> Body mass index (weight in kg/(height in m)^2):>25  0.832
+
+Tested Positive for Diabetes?:Yes  ---> Body mass index (weight in kg/(height in m)^2):>25  0.9664179104477612
+
+Diastolic blood pressure (mm Hg):>60 and <=80 Diabetes pedigree function: >= 1.0148000000000001 and <= 1.4832000000000003  ---> Body mass index (weight in kg/(height in m)^2):>25  0.8381877022653722
+
+Diastolic blood pressure (mm Hg):>60 and <=80 Age (years): >= 21 and <= 33  ---> Body mass index (weight in kg/(height in m)^2):>25  0.8188405797101449
+
+Triceps skin fold thickness (mm):>38 Diabetes pedigree function: >= 1.0148000000000001 and <= 1.4832000000000003  ---> 2-Hour serum insulin (mu U/ml):>210  0.853448275862069
+
+Triceps skin fold thickness (mm):>38 Diabetes pedigree function: >= 1.0148000000000001 and <= 1.4832000000000003  ---> Body mass index (weight in kg/(height in m)^2):>25  0.8146551724137931
+
+Diastolic blood pressure (mm Hg):>60 and <=80 Tested Positive for Diabetes?:Yes  ---> Body mass index (weight in kg/(height in m)^2):>25  0.9605263157894737
+
+Triceps skin fold thickness (mm):>38 Age (years): >= 21 and <= 33  ---> Body mass index (weight in kg/(height in m)^2):>25  0.8241758241758241
+
+2-Hour serum insulin (mu U/ml):>210 Diabetes pedigree function: >= 1.0148000000000001 and <= 1.4832000000000003  ---> Body mass index (weight in kg/(height in m)^2):>25  0.8150470219435737
+
+Triceps skin fold thickness (mm):>38 Tested Positive for Diabetes?:No  ---> 2-Hour serum insulin (mu U/ml):>210  0.8121827411167513
+
+Triceps skin fold thickness (mm):>38 Tested Positive for Diabetes?:Yes  ---> Body mass index (weight in kg/(height in m)^2):>25  0.9492753623188406
+
+2-Hour serum insulin (mu U/ml):>210 Tested Positive for Diabetes?:Yes  ---> Body mass index (weight in kg/(height in m)^2):>25  0.9608938547486033
+
+Diastolic blood pressure (mm Hg):>60 and <=80 2-Hour serum insulin (mu U/ml):>210 Diabetes pedigree function: >= 1.0148000000000001 and <= 1.4832000000000003  ---> Body mass index (weight in kg/(height in m)^2):>25  0.8478260869565217
+
+Diabetes pedigree function: >= 1.0148000000000001 and <= 1.4832000000000003 Tested Positive for Diabetes?:Yes  ---> Body mass index (weight in kg/(height in m)^2):>25  0.9556962025316456
+
+Triceps skin fold thickness (mm):>38 Body mass index (weight in kg/(height in m)^2):>25 Diabetes pedigree function: >= 1.0148000000000001 and <= 1.4832000000000003  ---> 2-Hour serum insulin (mu U/ml):>210  0.8201058201058201
+
+Diastolic blood pressure (mm Hg):>60 and <=80 Diabetes pedigree function: >= 1.0148000000000001 and <= 1.4832000000000003 Age (years): >= 21 and <= 33  ---> Body mass index (weight in kg/(height in m)^2):>25  0.8031088082901554
+
+
+No of Rules: 31

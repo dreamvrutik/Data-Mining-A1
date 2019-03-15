@@ -1,0 +1,688 @@
+***
+TEST CASE 1
+MIN SUPPORT : 50
+MIN CONFIDENCE : 30
+Number of rules:  683
+('maint', 'vhigh')(count : 432) ----------------->('persons', '2')(count : 576)0.3333333333333333
+('maint', 'vhigh')(count : 432) ----------------->('persons', '2')(count : 576)0.3333333333333333
+('maint', 'vhigh')(count : 432) ----------------->('persons', '4')(count : 576)0.3333333333333333
+('maint', 'vhigh')(count : 432) ----------------->('persons', '4')(count : 576)0.3333333333333333
+('maint', 'vhigh')(count : 432) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+('maint', 'vhigh')(count : 432) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+('maint', 'high')(count : 432) ----------------->('persons', '2')(count : 576)0.3333333333333333
+('maint', 'high')(count : 432) ----------------->('persons', '2')(count : 576)0.3333333333333333
+('maint', 'high')(count : 432) ----------------->('persons', '4')(count : 576)0.3333333333333333
+('maint', 'high')(count : 432) ----------------->('persons', '4')(count : 576)0.3333333333333333
+('maint', 'high')(count : 432) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+('maint', 'high')(count : 432) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+('maint', 'med')(count : 432) ----------------->('persons', '2')(count : 576)0.3333333333333333
+('maint', 'med')(count : 432) ----------------->('persons', '2')(count : 576)0.3333333333333333
+('maint', 'med')(count : 432) ----------------->('persons', '4')(count : 576)0.3333333333333333
+('maint', 'med')(count : 432) ----------------->('persons', '4')(count : 576)0.3333333333333333
+('maint', 'med')(count : 432) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+('maint', 'med')(count : 432) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+('maint', 'low')(count : 432) ----------------->('persons', '2')(count : 576)0.3333333333333333
+('maint', 'low')(count : 432) ----------------->('persons', '2')(count : 576)0.3333333333333333
+('maint', 'low')(count : 432) ----------------->('persons', '4')(count : 576)0.3333333333333333
+('maint', 'low')(count : 432) ----------------->('persons', '4')(count : 576)0.3333333333333333
+('maint', 'low')(count : 432) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+('maint', 'low')(count : 432) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+('maint', 'vhigh')(count : 432) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+('maint', 'vhigh')(count : 432) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+('maint', 'vhigh')(count : 432) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+('maint', 'vhigh')(count : 432) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+('maint', 'vhigh')(count : 432) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+('maint', 'vhigh')(count : 432) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+('maint', 'high')(count : 432) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+('maint', 'high')(count : 432) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+('maint', 'high')(count : 432) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+('maint', 'high')(count : 432) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+('maint', 'high')(count : 432) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+('maint', 'high')(count : 432) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+('maint', 'med')(count : 432) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+('maint', 'med')(count : 432) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+('maint', 'med')(count : 432) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+('maint', 'med')(count : 432) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+('maint', 'med')(count : 432) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+('maint', 'med')(count : 432) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+('maint', 'low')(count : 432) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+('maint', 'low')(count : 432) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+('maint', 'low')(count : 432) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+('maint', 'low')(count : 432) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+('maint', 'low')(count : 432) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+('maint', 'low')(count : 432) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+('maint', 'vhigh')(count : 432) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+('maint', 'vhigh')(count : 432) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+('maint', 'vhigh')(count : 432) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+('maint', 'vhigh')(count : 432) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+('maint', 'vhigh')(count : 432) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+('maint', 'vhigh')(count : 432) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+('maint', 'high')(count : 432) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+('maint', 'high')(count : 432) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+('maint', 'high')(count : 432) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+('maint', 'high')(count : 432) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+('maint', 'high')(count : 432) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+('maint', 'high')(count : 432) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+('maint', 'med')(count : 432) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+('maint', 'med')(count : 432) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+('maint', 'med')(count : 432) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+('maint', 'med')(count : 432) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+('maint', 'med')(count : 432) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+('maint', 'med')(count : 432) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+('maint', 'low')(count : 432) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+('maint', 'low')(count : 432) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+('maint', 'low')(count : 432) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+('maint', 'low')(count : 432) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+('maint', 'low')(count : 432) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+('maint', 'low')(count : 432) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+('maint', 'vhigh')(count : 432) ----------------->('class', 'unacc')(count : 1210)0.8333333333333334
+('maint', 'vhigh')(count : 432) ----------------->('class', 'unacc')(count : 1210)0.8333333333333334
+('maint', 'high')(count : 432) ----------------->('class', 'unacc')(count : 1210)0.7268518518518519
+('maint', 'high')(count : 432) ----------------->('class', 'unacc')(count : 1210)0.7268518518518519
+('maint', 'med')(count : 432) ----------------->('class', 'unacc')(count : 1210)0.6203703703703703
+('maint', 'med')(count : 432) ----------------->('class', 'unacc')(count : 1210)0.6203703703703703
+('maint', 'low')(count : 432) ----------------->('class', 'unacc')(count : 1210)0.6203703703703703
+('maint', 'low')(count : 432) ----------------->('class', 'unacc')(count : 1210)0.6203703703703703
+('buying', 'vhigh')(count : 432) ----------------->('persons', '2')(count : 576)0.3333333333333333
+('buying', 'vhigh')(count : 432) ----------------->('persons', '2')(count : 576)0.3333333333333333
+('buying', 'vhigh')(count : 432) ----------------->('persons', '4')(count : 576)0.3333333333333333
+('buying', 'vhigh')(count : 432) ----------------->('persons', '4')(count : 576)0.3333333333333333
+('buying', 'vhigh')(count : 432) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+('buying', 'vhigh')(count : 432) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+('buying', 'high')(count : 432) ----------------->('persons', '2')(count : 576)0.3333333333333333
+('buying', 'high')(count : 432) ----------------->('persons', '2')(count : 576)0.3333333333333333
+('buying', 'high')(count : 432) ----------------->('persons', '4')(count : 576)0.3333333333333333
+('buying', 'high')(count : 432) ----------------->('persons', '4')(count : 576)0.3333333333333333
+('buying', 'high')(count : 432) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+('buying', 'high')(count : 432) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+('buying', 'med')(count : 432) ----------------->('persons', '2')(count : 576)0.3333333333333333
+('buying', 'med')(count : 432) ----------------->('persons', '2')(count : 576)0.3333333333333333
+('buying', 'med')(count : 432) ----------------->('persons', '4')(count : 576)0.3333333333333333
+('buying', 'med')(count : 432) ----------------->('persons', '4')(count : 576)0.3333333333333333
+('buying', 'med')(count : 432) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+('buying', 'med')(count : 432) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+('buying', 'low')(count : 432) ----------------->('persons', '2')(count : 576)0.3333333333333333
+('buying', 'low')(count : 432) ----------------->('persons', '2')(count : 576)0.3333333333333333
+('buying', 'low')(count : 432) ----------------->('persons', '4')(count : 576)0.3333333333333333
+('buying', 'low')(count : 432) ----------------->('persons', '4')(count : 576)0.3333333333333333
+('buying', 'low')(count : 432) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+('buying', 'low')(count : 432) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+('buying', 'vhigh')(count : 432) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+('buying', 'vhigh')(count : 432) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+('buying', 'vhigh')(count : 432) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+('buying', 'vhigh')(count : 432) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+('buying', 'vhigh')(count : 432) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+('buying', 'vhigh')(count : 432) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+('buying', 'high')(count : 432) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+('buying', 'high')(count : 432) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+('buying', 'high')(count : 432) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+('buying', 'high')(count : 432) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+('buying', 'high')(count : 432) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+('buying', 'high')(count : 432) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+('buying', 'med')(count : 432) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+('buying', 'med')(count : 432) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+('buying', 'med')(count : 432) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+('buying', 'med')(count : 432) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+('buying', 'med')(count : 432) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+('buying', 'med')(count : 432) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+('buying', 'low')(count : 432) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+('buying', 'low')(count : 432) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+('buying', 'low')(count : 432) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+('buying', 'low')(count : 432) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+('buying', 'low')(count : 432) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+('buying', 'low')(count : 432) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+('buying', 'vhigh')(count : 432) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+('buying', 'vhigh')(count : 432) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+('buying', 'vhigh')(count : 432) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+('buying', 'vhigh')(count : 432) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+('buying', 'vhigh')(count : 432) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+('buying', 'vhigh')(count : 432) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+('buying', 'high')(count : 432) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+('buying', 'high')(count : 432) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+('buying', 'high')(count : 432) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+('buying', 'high')(count : 432) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+('buying', 'high')(count : 432) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+('buying', 'high')(count : 432) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+('buying', 'med')(count : 432) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+('buying', 'med')(count : 432) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+('buying', 'med')(count : 432) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+('buying', 'med')(count : 432) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+('buying', 'med')(count : 432) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+('buying', 'med')(count : 432) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+('buying', 'low')(count : 432) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+('buying', 'low')(count : 432) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+('buying', 'low')(count : 432) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+('buying', 'low')(count : 432) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+('buying', 'low')(count : 432) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+('buying', 'low')(count : 432) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+('buying', 'vhigh')(count : 432) ----------------->('class', 'unacc')(count : 1210)0.8333333333333334
+('buying', 'vhigh')(count : 432) ----------------->('class', 'unacc')(count : 1210)0.8333333333333334
+('buying', 'high')(count : 432) ----------------->('class', 'unacc')(count : 1210)0.75
+('buying', 'high')(count : 432) ----------------->('class', 'unacc')(count : 1210)0.75
+('buying', 'med')(count : 432) ----------------->('class', 'unacc')(count : 1210)0.6203703703703703
+('buying', 'med')(count : 432) ----------------->('class', 'unacc')(count : 1210)0.6203703703703703
+('buying', 'low')(count : 432) ----------------->('class', 'unacc')(count : 1210)0.5972222222222222
+('buying', 'low')(count : 432) ----------------->('class', 'unacc')(count : 1210)0.5972222222222222
+('doors', '2')(count : 432) ----------------->('persons', '2')(count : 576)0.3333333333333333
+('doors', '2')(count : 432) ----------------->('persons', '2')(count : 576)0.3333333333333333
+('doors', '2')(count : 432) ----------------->('persons', '4')(count : 576)0.3333333333333333
+('doors', '2')(count : 432) ----------------->('persons', '4')(count : 576)0.3333333333333333
+('doors', '2')(count : 432) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+('doors', '2')(count : 432) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+('doors', '3')(count : 432) ----------------->('persons', '2')(count : 576)0.3333333333333333
+('doors', '3')(count : 432) ----------------->('persons', '2')(count : 576)0.3333333333333333
+('doors', '3')(count : 432) ----------------->('persons', '4')(count : 576)0.3333333333333333
+('doors', '3')(count : 432) ----------------->('persons', '4')(count : 576)0.3333333333333333
+('doors', '3')(count : 432) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+('doors', '3')(count : 432) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+('doors', '4')(count : 432) ----------------->('persons', '2')(count : 576)0.3333333333333333
+('doors', '4')(count : 432) ----------------->('persons', '2')(count : 576)0.3333333333333333
+('doors', '4')(count : 432) ----------------->('persons', '4')(count : 576)0.3333333333333333
+('doors', '4')(count : 432) ----------------->('persons', '4')(count : 576)0.3333333333333333
+('doors', '4')(count : 432) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+('doors', '4')(count : 432) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+('doors', '5more')(count : 432) ----------------->('persons', '2')(count : 576)0.3333333333333333
+('doors', '5more')(count : 432) ----------------->('persons', '2')(count : 576)0.3333333333333333
+('doors', '5more')(count : 432) ----------------->('persons', '4')(count : 576)0.3333333333333333
+('doors', '5more')(count : 432) ----------------->('persons', '4')(count : 576)0.3333333333333333
+('doors', '5more')(count : 432) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+('doors', '5more')(count : 432) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+('doors', '2')(count : 432) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+('doors', '2')(count : 432) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+('doors', '2')(count : 432) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+('doors', '2')(count : 432) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+('doors', '2')(count : 432) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+('doors', '2')(count : 432) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+('doors', '3')(count : 432) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+('doors', '3')(count : 432) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+('doors', '3')(count : 432) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+('doors', '3')(count : 432) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+('doors', '3')(count : 432) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+('doors', '3')(count : 432) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+('doors', '4')(count : 432) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+('doors', '4')(count : 432) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+('doors', '4')(count : 432) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+('doors', '4')(count : 432) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+('doors', '4')(count : 432) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+('doors', '4')(count : 432) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+('doors', '5more')(count : 432) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+('doors', '5more')(count : 432) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+('doors', '5more')(count : 432) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+('doors', '5more')(count : 432) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+('doors', '5more')(count : 432) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+('doors', '5more')(count : 432) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+('doors', '2')(count : 432) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+('doors', '2')(count : 432) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+('doors', '2')(count : 432) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+('doors', '2')(count : 432) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+('doors', '2')(count : 432) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+('doors', '2')(count : 432) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+('doors', '3')(count : 432) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+('doors', '3')(count : 432) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+('doors', '3')(count : 432) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+('doors', '3')(count : 432) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+('doors', '3')(count : 432) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+('doors', '3')(count : 432) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+('doors', '4')(count : 432) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+('doors', '4')(count : 432) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+('doors', '4')(count : 432) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+('doors', '4')(count : 432) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+('doors', '4')(count : 432) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+('doors', '4')(count : 432) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+('doors', '5more')(count : 432) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+('doors', '5more')(count : 432) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+('doors', '5more')(count : 432) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+('doors', '5more')(count : 432) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+('doors', '5more')(count : 432) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+('doors', '5more')(count : 432) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+('doors', '2')(count : 432) ----------------->('class', 'unacc')(count : 1210)0.7546296296296297
+('doors', '2')(count : 432) ----------------->('class', 'unacc')(count : 1210)0.7546296296296297
+('doors', '3')(count : 432) ----------------->('class', 'unacc')(count : 1210)0.6944444444444444
+('doors', '3')(count : 432) ----------------->('class', 'unacc')(count : 1210)0.6944444444444444
+('doors', '4')(count : 432) ----------------->('class', 'unacc')(count : 1210)0.6759259259259259
+('doors', '4')(count : 432) ----------------->('class', 'unacc')(count : 1210)0.6759259259259259
+('doors', '5more')(count : 432) ----------------->('class', 'unacc')(count : 1210)0.6759259259259259
+('doors', '5more')(count : 432) ----------------->('class', 'unacc')(count : 1210)0.6759259259259259
+('lug_boot', 'small')(count : 576) ----------------->('persons', '2')(count : 576)0.3333333333333333
+('persons', '2')(count : 576) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+('persons', '2')(count : 576) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+('lug_boot', 'small')(count : 576) ----------------->('persons', '2')(count : 576)0.3333333333333333
+('persons', '2')(count : 576) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+('lug_boot', 'med')(count : 576) ----------------->('persons', '2')(count : 576)0.3333333333333333
+('lug_boot', 'med')(count : 576) ----------------->('persons', '2')(count : 576)0.3333333333333333
+('persons', '2')(count : 576) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+('persons', '2')(count : 576) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+('lug_boot', 'big')(count : 576) ----------------->('persons', '2')(count : 576)0.3333333333333333
+('lug_boot', 'big')(count : 576) ----------------->('persons', '2')(count : 576)0.3333333333333333
+('persons', '2')(count : 576) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+('lug_boot', 'small')(count : 576) ----------------->('persons', '4')(count : 576)0.3333333333333333
+('persons', '4')(count : 576) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+('persons', '4')(count : 576) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+('lug_boot', 'small')(count : 576) ----------------->('persons', '4')(count : 576)0.3333333333333333
+('persons', '4')(count : 576) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+('lug_boot', 'med')(count : 576) ----------------->('persons', '4')(count : 576)0.3333333333333333
+('lug_boot', 'med')(count : 576) ----------------->('persons', '4')(count : 576)0.3333333333333333
+('persons', '4')(count : 576) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+('persons', '4')(count : 576) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+('lug_boot', 'big')(count : 576) ----------------->('persons', '4')(count : 576)0.3333333333333333
+('lug_boot', 'big')(count : 576) ----------------->('persons', '4')(count : 576)0.3333333333333333
+('persons', '4')(count : 576) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+('lug_boot', 'small')(count : 576) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+('persons', 'more')(count : 576) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+('persons', 'more')(count : 576) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+('lug_boot', 'small')(count : 576) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+('lug_boot', 'med')(count : 576) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+('persons', 'more')(count : 576) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+('persons', 'more')(count : 576) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+('lug_boot', 'med')(count : 576) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+('lug_boot', 'big')(count : 576) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+('persons', 'more')(count : 576) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+('persons', 'more')(count : 576) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+('lug_boot', 'big')(count : 576) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+('persons', '2')(count : 576) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+('safety', 'low')(count : 576) ----------------->('persons', '2')(count : 576)0.3333333333333333
+('safety', 'low')(count : 576) ----------------->('persons', '2')(count : 576)0.3333333333333333
+('persons', '2')(count : 576) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+('persons', '2')(count : 576) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+('safety', 'med')(count : 576) ----------------->('persons', '2')(count : 576)0.3333333333333333
+('safety', 'med')(count : 576) ----------------->('persons', '2')(count : 576)0.3333333333333333
+('persons', '2')(count : 576) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+('safety', 'high')(count : 576) ----------------->('persons', '2')(count : 576)0.3333333333333333
+('persons', '2')(count : 576) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+('persons', '2')(count : 576) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+('safety', 'high')(count : 576) ----------------->('persons', '2')(count : 576)0.3333333333333333
+('persons', '4')(count : 576) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+('safety', 'low')(count : 576) ----------------->('persons', '4')(count : 576)0.3333333333333333
+('safety', 'low')(count : 576) ----------------->('persons', '4')(count : 576)0.3333333333333333
+('persons', '4')(count : 576) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+('safety', 'med')(count : 576) ----------------->('persons', '4')(count : 576)0.3333333333333333
+('persons', '4')(count : 576) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+('persons', '4')(count : 576) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+('safety', 'med')(count : 576) ----------------->('persons', '4')(count : 576)0.3333333333333333
+('safety', 'high')(count : 576) ----------------->('persons', '4')(count : 576)0.3333333333333333
+('persons', '4')(count : 576) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+('persons', '4')(count : 576) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+('safety', 'high')(count : 576) ----------------->('persons', '4')(count : 576)0.3333333333333333
+('safety', 'low')(count : 576) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+('persons', 'more')(count : 576) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+('persons', 'more')(count : 576) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+('safety', 'low')(count : 576) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+('safety', 'med')(count : 576) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+('persons', 'more')(count : 576) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+('persons', 'more')(count : 576) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+('safety', 'med')(count : 576) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+('safety', 'high')(count : 576) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+('persons', 'more')(count : 576) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+('persons', 'more')(count : 576) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+('safety', 'high')(count : 576) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+('class', 'unacc')(count : 1210) ----------------->('persons', '2')(count : 576)0.47603305785123967
+('persons', '2')(count : 576) ----------------->('class', 'unacc')(count : 1210)1.0
+('persons', '2')(count : 576) ----------------->('class', 'unacc')(count : 1210)1.0
+('class', 'unacc')(count : 1210) ----------------->('persons', '2')(count : 576)0.47603305785123967
+('persons', '4')(count : 576) ----------------->('class', 'unacc')(count : 1210)0.5416666666666666
+('persons', '4')(count : 576) ----------------->('class', 'unacc')(count : 1210)0.5416666666666666
+('class', 'acc')(count : 384) ----------------->('persons', '4')(count : 576)0.515625
+('persons', '4')(count : 576) ----------------->('class', 'acc')(count : 384)0.34375
+('persons', '4')(count : 576) ----------------->('class', 'acc')(count : 384)0.34375
+('class', 'acc')(count : 384) ----------------->('persons', '4')(count : 576)0.515625
+('persons', 'more')(count : 576) ----------------->('class', 'unacc')(count : 1210)0.5590277777777778
+('persons', 'more')(count : 576) ----------------->('class', 'unacc')(count : 1210)0.5590277777777778
+('class', 'acc')(count : 384) ----------------->('persons', 'more')(count : 576)0.484375
+('persons', 'more')(count : 576) ----------------->('class', 'acc')(count : 384)0.3229166666666667
+('persons', 'more')(count : 576) ----------------->('class', 'acc')(count : 384)0.3229166666666667
+('class', 'acc')(count : 384) ----------------->('persons', 'more')(count : 576)0.484375
+('lug_boot', 'small')(count : 576) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+('safety', 'low')(count : 576) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+('safety', 'low')(count : 576) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+('lug_boot', 'small')(count : 576) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+('lug_boot', 'small')(count : 576) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+('safety', 'med')(count : 576) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+('safety', 'med')(count : 576) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+('lug_boot', 'small')(count : 576) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+('safety', 'high')(count : 576) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+('lug_boot', 'small')(count : 576) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+('lug_boot', 'small')(count : 576) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+('safety', 'high')(count : 576) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+('safety', 'low')(count : 576) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+('lug_boot', 'med')(count : 576) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+('lug_boot', 'med')(count : 576) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+('safety', 'low')(count : 576) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+('safety', 'med')(count : 576) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+('lug_boot', 'med')(count : 576) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+('lug_boot', 'med')(count : 576) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+('safety', 'med')(count : 576) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+('safety', 'high')(count : 576) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+('lug_boot', 'med')(count : 576) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+('lug_boot', 'med')(count : 576) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+('safety', 'high')(count : 576) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+('safety', 'low')(count : 576) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+('lug_boot', 'big')(count : 576) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+('lug_boot', 'big')(count : 576) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+('safety', 'low')(count : 576) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+('safety', 'med')(count : 576) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+('lug_boot', 'big')(count : 576) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+('lug_boot', 'big')(count : 576) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+('safety', 'med')(count : 576) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+('safety', 'high')(count : 576) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+('lug_boot', 'big')(count : 576) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+('lug_boot', 'big')(count : 576) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+('safety', 'high')(count : 576) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+('class', 'unacc')(count : 1210) ----------------->('lug_boot', 'small')(count : 576)0.371900826446281
+('lug_boot', 'small')(count : 576) ----------------->('class', 'unacc')(count : 1210)0.78125
+('lug_boot', 'small')(count : 576) ----------------->('class', 'unacc')(count : 1210)0.78125
+('class', 'unacc')(count : 1210) ----------------->('lug_boot', 'small')(count : 576)0.371900826446281
+('class', 'unacc')(count : 1210) ----------------->('lug_boot', 'med')(count : 576)0.3239669421487603
+('lug_boot', 'med')(count : 576) ----------------->('class', 'unacc')(count : 1210)0.6805555555555556
+('lug_boot', 'med')(count : 576) ----------------->('class', 'unacc')(count : 1210)0.6805555555555556
+('class', 'unacc')(count : 1210) ----------------->('lug_boot', 'med')(count : 576)0.3239669421487603
+('class', 'acc')(count : 384) ----------------->('lug_boot', 'med')(count : 576)0.3515625
+('class', 'acc')(count : 384) ----------------->('lug_boot', 'med')(count : 576)0.3515625
+('class', 'unacc')(count : 1210) ----------------->('lug_boot', 'big')(count : 576)0.30413223140495865
+('lug_boot', 'big')(count : 576) ----------------->('class', 'unacc')(count : 1210)0.6388888888888888
+('lug_boot', 'big')(count : 576) ----------------->('class', 'unacc')(count : 1210)0.6388888888888888
+('class', 'unacc')(count : 1210) ----------------->('lug_boot', 'big')(count : 576)0.30413223140495865
+('class', 'acc')(count : 384) ----------------->('lug_boot', 'big')(count : 576)0.375
+('class', 'acc')(count : 384) ----------------->('lug_boot', 'big')(count : 576)0.375
+('class', 'unacc')(count : 1210) ----------------->('safety', 'low')(count : 576)0.47603305785123967
+('safety', 'low')(count : 576) ----------------->('class', 'unacc')(count : 1210)1.0
+('safety', 'low')(count : 576) ----------------->('class', 'unacc')(count : 1210)1.0
+('class', 'unacc')(count : 1210) ----------------->('safety', 'low')(count : 576)0.47603305785123967
+('safety', 'med')(count : 576) ----------------->('class', 'unacc')(count : 1210)0.6197916666666666
+('safety', 'med')(count : 576) ----------------->('class', 'unacc')(count : 1210)0.6197916666666666
+('class', 'acc')(count : 384) ----------------->('safety', 'med')(count : 576)0.46875
+('safety', 'med')(count : 576) ----------------->('class', 'acc')(count : 384)0.3125
+('safety', 'med')(count : 576) ----------------->('class', 'acc')(count : 384)0.3125
+('class', 'acc')(count : 384) ----------------->('safety', 'med')(count : 576)0.46875
+('safety', 'high')(count : 576) ----------------->('class', 'unacc')(count : 1210)0.4809027777777778
+('safety', 'high')(count : 576) ----------------->('class', 'unacc')(count : 1210)0.4809027777777778
+('safety', 'high')(count : 576) ----------------->('class', 'acc')(count : 384)0.3541666666666667
+('class', 'acc')(count : 384) ----------------->('safety', 'high')(count : 576)0.53125
+('class', 'acc')(count : 384) ----------------->('safety', 'high')(count : 576)0.53125
+('safety', 'high')(count : 576) ----------------->('class', 'acc')(count : 384)0.3541666666666667
+('class', 'vgood')(count : 65) ----------------->('safety', 'high')(count : 576)1.0
+('class', 'vgood')(count : 65) ----------------->('safety', 'high')(count : 576)1.0
+(('buying', 'vhigh'), ('class', 'unacc'))(count : 360) ----------------->('maint', 'vhigh')(count : 432)0.3
+(('buying', 'high'), ('class', 'unacc'))(count : 324) ----------------->('maint', 'vhigh')(count : 432)0.3333333333333333
+(('buying', 'vhigh'), ('class', 'unacc'))(count : 360) ----------------->('maint', 'high')(count : 432)0.3
+(('maint', 'high'), ('buying', 'med'))(count : 108) ----------------->('class', 'unacc')(count : 1210)0.6666666666666666
+(('maint', 'med'), ('buying', 'vhigh'))(count : 108) ----------------->('class', 'unacc')(count : 1210)0.6666666666666666
+(('maint', 'med'), ('buying', 'med'))(count : 108) ----------------->('class', 'unacc')(count : 1210)0.5740740740740741
+(('maint', 'med'), ('buying', 'low'))(count : 108) ----------------->('class', 'unacc')(count : 1210)0.5740740740740741
+(('maint', 'low'), ('buying', 'vhigh'))(count : 108) ----------------->('class', 'unacc')(count : 1210)0.6666666666666666
+(('maint', 'low'), ('buying', 'high'))(count : 108) ----------------->('class', 'unacc')(count : 1210)0.6666666666666666
+(('maint', 'low'), ('buying', 'med'))(count : 108) ----------------->('class', 'unacc')(count : 1210)0.5740740740740741
+(('maint', 'low'), ('buying', 'low'))(count : 108) ----------------->('class', 'unacc')(count : 1210)0.5740740740740741
+(('maint', 'high'), ('doors', '4'))(count : 108) ----------------->('class', 'unacc')(count : 1210)0.7037037037037037
+(('maint', 'high'), ('doors', '5more'))(count : 108) ----------------->('class', 'unacc')(count : 1210)0.7037037037037037
+(('maint', 'med'), ('doors', '2'))(count : 108) ----------------->('class', 'unacc')(count : 1210)0.6851851851851852
+(('maint', 'med'), ('doors', '3'))(count : 108) ----------------->('class', 'unacc')(count : 1210)0.6111111111111112
+(('maint', 'med'), ('doors', '4'))(count : 108) ----------------->('class', 'unacc')(count : 1210)0.5925925925925926
+(('maint', 'med'), ('doors', '5more'))(count : 108) ----------------->('class', 'unacc')(count : 1210)0.5925925925925926
+(('maint', 'low'), ('doors', '2'))(count : 108) ----------------->('class', 'unacc')(count : 1210)0.6851851851851852
+(('maint', 'low'), ('doors', '3'))(count : 108) ----------------->('class', 'unacc')(count : 1210)0.6111111111111112
+(('maint', 'low'), ('doors', '4'))(count : 108) ----------------->('class', 'unacc')(count : 1210)0.5925925925925926
+(('maint', 'low'), ('doors', '5more'))(count : 108) ----------------->('class', 'unacc')(count : 1210)0.5925925925925926
+(('maint', 'vhigh'), ('persons', 'more'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.75
+(('maint', 'high'), ('persons', '4'))(count : 144) ----------------->('class', 'acc')(count : 384)0.375
+(('maint', 'high'), ('persons', 'more'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.5972222222222222
+(('maint', 'high'), ('persons', 'more'))(count : 144) ----------------->('class', 'acc')(count : 384)0.3541666666666667
+(('maint', 'med'), ('class', 'unacc'))(count : 268) ----------------->('persons', '2')(count : 576)0.5373134328358209
+(('maint', 'med'), ('persons', '2'))(count : 144) ----------------->('class', 'unacc')(count : 1210)1.0
+(('maint', 'med'), ('persons', '4'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.4166666666666667
+(('maint', 'med'), ('persons', '4'))(count : 144) ----------------->('class', 'acc')(count : 384)0.4166666666666667
+(('maint', 'med'), ('class', 'acc'))(count : 115) ----------------->('persons', '4')(count : 576)0.5217391304347826
+(('maint', 'med'), ('persons', 'more'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.4444444444444444
+(('maint', 'med'), ('persons', 'more'))(count : 144) ----------------->('class', 'acc')(count : 384)0.3819444444444444
+(('maint', 'med'), ('class', 'acc'))(count : 115) ----------------->('persons', 'more')(count : 576)0.4782608695652174
+(('maint', 'low'), ('persons', '2'))(count : 144) ----------------->('class', 'unacc')(count : 1210)1.0
+(('maint', 'low'), ('class', 'unacc'))(count : 268) ----------------->('persons', '2')(count : 576)0.5373134328358209
+(('maint', 'low'), ('persons', '4'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.4166666666666667
+(('maint', 'low'), ('persons', 'more'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.4444444444444444
+(('maint', 'vhigh'), ('lug_boot', 'med'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.8194444444444444
+(('maint', 'high'), ('lug_boot', 'med'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.7083333333333334
+(('maint', 'high'), ('lug_boot', 'big'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.6666666666666666
+(('maint', 'med'), ('class', 'unacc'))(count : 268) ----------------->('lug_boot', 'small')(count : 576)0.3805970149253731
+(('maint', 'med'), ('lug_boot', 'small'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.7083333333333334
+(('maint', 'med'), ('lug_boot', 'med'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.5972222222222222
+(('maint', 'med'), ('class', 'unacc'))(count : 268) ----------------->('lug_boot', 'med')(count : 576)0.3208955223880597
+(('maint', 'med'), ('lug_boot', 'big'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.5555555555555556
+(('maint', 'low'), ('lug_boot', 'small'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.7083333333333334
+(('maint', 'low'), ('class', 'unacc'))(count : 268) ----------------->('lug_boot', 'small')(count : 576)0.3805970149253731
+(('maint', 'low'), ('lug_boot', 'med'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.5972222222222222
+(('maint', 'low'), ('class', 'unacc'))(count : 268) ----------------->('lug_boot', 'med')(count : 576)0.3208955223880597
+(('maint', 'low'), ('lug_boot', 'big'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.5555555555555556
+(('safety', 'high'), ('class', 'unacc'))(count : 277) ----------------->('maint', 'vhigh')(count : 432)0.35379061371841153
+(('maint', 'high'), ('safety', 'low'))(count : 144) ----------------->('class', 'unacc')(count : 1210)1.0
+(('maint', 'med'), ('safety', 'low'))(count : 144) ----------------->('class', 'unacc')(count : 1210)1.0
+(('maint', 'med'), ('class', 'unacc'))(count : 268) ----------------->('safety', 'low')(count : 576)0.5373134328358209
+(('maint', 'med'), ('safety', 'med'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.5
+(('maint', 'med'), ('safety', 'med'))(count : 144) ----------------->('class', 'acc')(count : 384)0.4097222222222222
+(('maint', 'med'), ('class', 'acc'))(count : 115) ----------------->('safety', 'med')(count : 576)0.5130434782608696
+(('maint', 'med'), ('safety', 'high'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.3611111111111111
+(('maint', 'med'), ('safety', 'high'))(count : 144) ----------------->('class', 'acc')(count : 384)0.3888888888888889
+(('maint', 'med'), ('class', 'acc'))(count : 115) ----------------->('safety', 'high')(count : 576)0.48695652173913045
+(('maint', 'low'), ('safety', 'low'))(count : 144) ----------------->('class', 'unacc')(count : 1210)1.0
+(('maint', 'low'), ('class', 'unacc'))(count : 268) ----------------->('safety', 'low')(count : 576)0.5373134328358209
+(('maint', 'low'), ('safety', 'med'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.5
+(('maint', 'low'), ('safety', 'high'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.3611111111111111
+(('maint', 'med'), ('doors', '2'))(count : 108) ----------------->('class', 'unacc')(count : 1210)0.6851851851851852
+(('maint', 'med'), ('doors', '3'))(count : 108) ----------------->('class', 'unacc')(count : 1210)0.6111111111111112
+(('maint', 'med'), ('class', 'unacc'))(count : 268) ----------------->('persons', '2')(count : 576)0.5373134328358209
+(('maint', 'med'), ('persons', '2'))(count : 144) ----------------->('class', 'unacc')(count : 1210)1.0
+(('maint', 'low'), ('buying', 'vhigh'))(count : 108) ----------------->('class', 'unacc')(count : 1210)0.6666666666666666
+(('maint', 'low'), ('safety', 'high'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.3611111111111111
+(('buying', 'vhigh'), ('doors', '2'))(count : 108) ----------------->('class', 'unacc')(count : 1210)0.8703703703703703
+(('buying', 'vhigh'), ('doors', '3'))(count : 108) ----------------->('class', 'unacc')(count : 1210)0.8333333333333334
+(('buying', 'vhigh'), ('doors', '4'))(count : 108) ----------------->('class', 'unacc')(count : 1210)0.8148148148148148
+(('buying', 'vhigh'), ('doors', '5more'))(count : 108) ----------------->('class', 'unacc')(count : 1210)0.8148148148148148
+(('buying', 'high'), ('doors', '2'))(count : 108) ----------------->('class', 'unacc')(count : 1210)0.8055555555555556
+(('buying', 'high'), ('doors', '3'))(count : 108) ----------------->('class', 'unacc')(count : 1210)0.75
+(('buying', 'high'), ('doors', '4'))(count : 108) ----------------->('class', 'unacc')(count : 1210)0.7222222222222222
+(('buying', 'high'), ('doors', '5more'))(count : 108) ----------------->('class', 'unacc')(count : 1210)0.7222222222222222
+(('buying', 'low'), ('doors', '4'))(count : 108) ----------------->('class', 'unacc')(count : 1210)0.5740740740740741
+(('buying', 'low'), ('doors', '5more'))(count : 108) ----------------->('class', 'unacc')(count : 1210)0.5740740740740741
+(('buying', 'vhigh'), ('class', 'unacc'))(count : 360) ----------------->('persons', '2')(count : 576)0.4
+(('buying', 'vhigh'), ('persons', '2'))(count : 144) ----------------->('class', 'unacc')(count : 1210)1.0
+(('buying', 'vhigh'), ('persons', '4'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.75
+(('buying', 'vhigh'), ('class', 'unacc'))(count : 360) ----------------->('persons', '4')(count : 576)0.3
+(('buying', 'vhigh'), ('persons', 'more'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.75
+(('buying', 'vhigh'), ('class', 'unacc'))(count : 360) ----------------->('persons', 'more')(count : 576)0.3
+(('buying', 'high'), ('persons', '2'))(count : 144) ----------------->('class', 'unacc')(count : 1210)1.0
+(('buying', 'high'), ('class', 'unacc'))(count : 324) ----------------->('persons', '2')(count : 576)0.4444444444444444
+(('buying', 'high'), ('persons', '4'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.625
+(('buying', 'high'), ('persons', '4'))(count : 144) ----------------->('class', 'acc')(count : 384)0.375
+(('buying', 'high'), ('class', 'acc'))(count : 108) ----------------->('persons', '4')(count : 576)0.5
+(('buying', 'high'), ('persons', 'more'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.625
+(('buying', 'high'), ('persons', 'more'))(count : 144) ----------------->('class', 'acc')(count : 384)0.375
+(('buying', 'high'), ('class', 'acc'))(count : 108) ----------------->('persons', 'more')(count : 576)0.5
+(('buying', 'med'), ('persons', 'more'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.4444444444444444
+(('buying', 'med'), ('persons', 'more'))(count : 144) ----------------->('class', 'acc')(count : 384)0.3819444444444444
+(('buying', 'low'), ('persons', '4'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.375
+(('buying', 'low'), ('persons', 'more'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.4166666666666667
+(('buying', 'vhigh'), ('class', 'unacc'))(count : 360) ----------------->('lug_boot', 'small')(count : 576)0.3611111111111111
+(('buying', 'vhigh'), ('lug_boot', 'small'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.9027777777777778
+(('buying', 'vhigh'), ('lug_boot', 'med'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.8194444444444444
+(('buying', 'vhigh'), ('class', 'unacc'))(count : 360) ----------------->('lug_boot', 'med')(count : 576)0.3277777777777778
+(('buying', 'vhigh'), ('lug_boot', 'big'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.7777777777777778
+(('buying', 'vhigh'), ('class', 'unacc'))(count : 360) ----------------->('lug_boot', 'big')(count : 576)0.3111111111111111
+(('buying', 'high'), ('lug_boot', 'small'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.8541666666666666
+(('buying', 'high'), ('class', 'unacc'))(count : 324) ----------------->('lug_boot', 'small')(count : 576)0.37962962962962965
+(('buying', 'high'), ('lug_boot', 'med'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.7291666666666666
+(('buying', 'high'), ('class', 'unacc'))(count : 324) ----------------->('lug_boot', 'med')(count : 576)0.32407407407407407
+(('buying', 'high'), ('lug_boot', 'big'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.6666666666666666
+(('buying', 'med'), ('lug_boot', 'med'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.5972222222222222
+(('buying', 'low'), ('lug_boot', 'med'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.5763888888888888
+(('buying', 'low'), ('lug_boot', 'big'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.5555555555555556
+(('buying', 'vhigh'), ('safety', 'low'))(count : 144) ----------------->('class', 'unacc')(count : 1210)1.0
+(('buying', 'vhigh'), ('class', 'unacc'))(count : 360) ----------------->('safety', 'low')(count : 576)0.4
+(('buying', 'vhigh'), ('safety', 'med'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.8194444444444444
+(('buying', 'vhigh'), ('class', 'unacc'))(count : 360) ----------------->('safety', 'med')(count : 576)0.3277777777777778
+(('buying', 'vhigh'), ('safety', 'high'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.6805555555555556
+(('buying', 'high'), ('safety', 'low'))(count : 144) ----------------->('class', 'unacc')(count : 1210)1.0
+(('buying', 'high'), ('class', 'unacc'))(count : 324) ----------------->('safety', 'low')(count : 576)0.4444444444444444
+(('buying', 'high'), ('safety', 'med'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.7291666666666666
+(('buying', 'high'), ('class', 'unacc'))(count : 324) ----------------->('safety', 'med')(count : 576)0.32407407407407407
+(('buying', 'high'), ('safety', 'high'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.5208333333333334
+(('safety', 'high'), ('class', 'acc'))(count : 204) ----------------->('buying', 'high')(count : 432)0.3382352941176471
+(('buying', 'high'), ('class', 'acc'))(count : 108) ----------------->('safety', 'high')(count : 576)0.6388888888888888
+(('buying', 'high'), ('safety', 'high'))(count : 144) ----------------->('class', 'acc')(count : 384)0.4791666666666667
+(('buying', 'low'), ('safety', 'low'))(count : 144) ----------------->('class', 'unacc')(count : 1210)1.0
+(('buying', 'low'), ('safety', 'med'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.4305555555555556
+(('buying', 'vhigh'), ('doors', '2'))(count : 108) ----------------->('class', 'unacc')(count : 1210)0.8703703703703703
+(('buying', 'vhigh'), ('doors', '3'))(count : 108) ----------------->('class', 'unacc')(count : 1210)0.8333333333333334
+(('buying', 'vhigh'), ('class', 'unacc'))(count : 360) ----------------->('persons', '2')(count : 576)0.4
+(('buying', 'vhigh'), ('persons', '2'))(count : 144) ----------------->('class', 'unacc')(count : 1210)1.0
+(('buying', 'high'), ('safety', 'high'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.5208333333333334
+(('doors', '2'), ('persons', '4'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.5694444444444444
+(('doors', '2'), ('persons', 'more'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.6944444444444444
+(('doors', '3'), ('persons', '4'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.5694444444444444
+(('doors', '3'), ('persons', 'more'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.5138888888888888
+(('doors', '3'), ('persons', 'more'))(count : 144) ----------------->('class', 'acc')(count : 384)0.3541666666666667
+(('doors', '4'), ('persons', 'more'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.5138888888888888
+(('doors', '4'), ('persons', 'more'))(count : 144) ----------------->('class', 'acc')(count : 384)0.3541666666666667
+(('doors', '5more'), ('persons', 'more'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.5138888888888888
+(('doors', '5more'), ('persons', 'more'))(count : 144) ----------------->('class', 'acc')(count : 384)0.3541666666666667
+(('doors', '2'), ('lug_boot', 'med'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.75
+(('doors', '2'), ('lug_boot', 'big'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.6388888888888888
+(('doors', '3'), ('lug_boot', 'med'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.6944444444444444
+(('doors', '3'), ('lug_boot', 'big'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.6388888888888888
+(('doors', '4'), ('lug_boot', 'med'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.6388888888888888
+(('doors', '4'), ('lug_boot', 'big'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.6388888888888888
+(('doors', '5more'), ('lug_boot', 'med'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.6388888888888888
+(('doors', '5more'), ('lug_boot', 'big'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.6388888888888888
+(('doors', '2'), ('safety', 'low'))(count : 144) ----------------->('class', 'unacc')(count : 1210)1.0
+(('doors', '2'), ('safety', 'med'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.7152777777777778
+(('doors', '3'), ('safety', 'low'))(count : 144) ----------------->('class', 'unacc')(count : 1210)1.0
+(('doors', '3'), ('safety', 'med'))(count : 144) ----------------->('class', 'unacc')(count : 1210)0.625
+(('doors', '4'), ('safety', 'low'))(count : 144) ----------------->('class', 'unacc')(count : 1210)1.0
+(('doors', '5more'), ('safety', 'low'))(count : 144) ----------------->('class', 'unacc')(count : 1210)1.0
+(('persons', '2'), ('safety', 'low'))(count : 192) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+(('lug_boot', 'small'), ('safety', 'low'))(count : 192) ----------------->('persons', '2')(count : 576)0.3333333333333333
+(('persons', '2'), ('safety', 'med'))(count : 192) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+(('lug_boot', 'small'), ('safety', 'med'))(count : 192) ----------------->('persons', '2')(count : 576)0.3333333333333333
+(('persons', '2'), ('lug_boot', 'med'))(count : 192) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+(('persons', '2'), ('safety', 'low'))(count : 192) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+(('persons', '2'), ('lug_boot', 'med'))(count : 192) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+(('persons', '2'), ('safety', 'med'))(count : 192) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+(('persons', '2'), ('lug_boot', 'med'))(count : 192) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+(('persons', '2'), ('lug_boot', 'med'))(count : 192) ----------------->('class', 'unacc')(count : 1210)1.0
+(('persons', '2'), ('safety', 'low'))(count : 192) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+(('persons', '2'), ('lug_boot', 'big'))(count : 192) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+(('persons', '2'), ('lug_boot', 'big'))(count : 192) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+(('persons', '2'), ('safety', 'med'))(count : 192) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+(('persons', '2'), ('lug_boot', 'big'))(count : 192) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+(('persons', '2'), ('lug_boot', 'big'))(count : 192) ----------------->('class', 'unacc')(count : 1210)1.0
+(('persons', '4'), ('safety', 'low'))(count : 192) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+(('lug_boot', 'small'), ('safety', 'low'))(count : 192) ----------------->('persons', '4')(count : 576)0.3333333333333333
+(('lug_boot', 'small'), ('safety', 'med'))(count : 192) ----------------->('persons', '4')(count : 576)0.3333333333333333
+(('lug_boot', 'small'), ('class', 'acc'))(count : 105) ----------------->('persons', '4')(count : 576)0.5714285714285714
+(('persons', '4'), ('lug_boot', 'med'))(count : 192) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+(('persons', '4'), ('safety', 'low'))(count : 192) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+(('persons', '4'), ('lug_boot', 'med'))(count : 192) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+(('persons', '4'), ('lug_boot', 'med'))(count : 192) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+(('persons', '4'), ('lug_boot', 'med'))(count : 192) ----------------->('class', 'unacc')(count : 1210)0.5416666666666666
+(('persons', '4'), ('lug_boot', 'med'))(count : 192) ----------------->('class', 'acc')(count : 384)0.34375
+(('persons', '4'), ('safety', 'low'))(count : 192) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+(('persons', '4'), ('lug_boot', 'big'))(count : 192) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+(('persons', '4'), ('lug_boot', 'big'))(count : 192) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+(('persons', '4'), ('lug_boot', 'big'))(count : 192) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+(('persons', '4'), ('lug_boot', 'big'))(count : 192) ----------------->('class', 'unacc')(count : 1210)0.4583333333333333
+(('persons', '4'), ('lug_boot', 'big'))(count : 192) ----------------->('class', 'acc')(count : 384)0.375
+(('lug_boot', 'small'), ('safety', 'low'))(count : 192) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+(('lug_boot', 'small'), ('safety', 'med'))(count : 192) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+(('persons', '2'), ('safety', 'low'))(count : 192) ----------------->('class', 'unacc')(count : 1210)1.0
+(('persons', '2'), ('lug_boot', 'big'))(count : 192) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+(('lug_boot', 'big'), ('safety', 'low'))(count : 192) ----------------->('persons', '2')(count : 576)0.3333333333333333
+(('persons', '2'), ('safety', 'low'))(count : 192) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+(('persons', '2'), ('safety', 'med'))(count : 192) ----------------->('class', 'unacc')(count : 1210)1.0
+('persons', '2')(count : 576) ----------------->(('safety', 'high'), ('class', 'unacc'))(count : 277)0.3333333333333333
+(('safety', 'high'), ('class', 'unacc'))(count : 277) ----------------->('persons', '2')(count : 576)0.6931407942238267
+(('persons', '4'), ('safety', 'low'))(count : 192) ----------------->('class', 'unacc')(count : 1210)1.0
+(('persons', '4'), ('lug_boot', 'big'))(count : 192) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+(('lug_boot', 'big'), ('safety', 'low'))(count : 192) ----------------->('persons', '4')(count : 576)0.3333333333333333
+(('persons', '4'), ('safety', 'low'))(count : 192) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+(('persons', '4'), ('safety', 'med'))(count : 192) ----------------->('class', 'acc')(count : 384)0.46875
+(('safety', 'high'), ('class', 'acc'))(count : 204) ----------------->('persons', '4')(count : 576)0.5294117647058824
+(('lug_boot', 'big'), ('safety', 'low'))(count : 192) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+(('safety', 'high'), ('class', 'acc'))(count : 204) ----------------->('persons', 'more')(count : 576)0.47058823529411764
+(('lug_boot', 'small'), ('safety', 'low'))(count : 192) ----------------->('class', 'unacc')(count : 1210)1.0
+(('lug_boot', 'small'), ('safety', 'med'))(count : 192) ----------------->('class', 'unacc')(count : 1210)0.8177083333333334
+(('safety', 'high'), ('class', 'unacc'))(count : 277) ----------------->('lug_boot', 'small')(count : 576)0.36462093862815886
+(('lug_boot', 'small'), ('class', 'acc'))(count : 105) ----------------->('safety', 'high')(count : 576)0.6666666666666666
+(('safety', 'high'), ('class', 'acc'))(count : 204) ----------------->('lug_boot', 'small')(count : 576)0.3431372549019608
+(('safety', 'high'), ('class', 'unacc'))(count : 277) ----------------->('lug_boot', 'med')(count : 576)0.3176895306859206
+(('safety', 'high'), ('class', 'acc'))(count : 204) ----------------->('lug_boot', 'med')(count : 576)0.3431372549019608
+(('safety', 'high'), ('class', 'unacc'))(count : 277) ----------------->('lug_boot', 'big')(count : 576)0.3176895306859206
+(('safety', 'high'), ('class', 'acc'))(count : 204) ----------------->('lug_boot', 'big')(count : 576)0.3137254901960784
+(('lug_boot', 'small'), ('persons', '2'), ('safety', 'low'))(count : 64) ----------------->('class', 'unacc')(count : 1210)1.0
+(('class', 'unacc'), ('persons', '2'), ('safety', 'low'))(count : 192) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+(('class', 'unacc'), ('lug_boot', 'small'), ('safety', 'low'))(count : 192) ----------------->('persons', '2')(count : 576)0.3333333333333333
+(('class', 'unacc'), ('lug_boot', 'small'), ('persons', '2'))(count : 192) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+(('lug_boot', 'small'), ('persons', '2'), ('safety', 'med'))(count : 64) ----------------->('class', 'unacc')(count : 1210)1.0
+(('class', 'unacc'), ('persons', '2'), ('safety', 'med'))(count : 192) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+(('class', 'unacc'), ('lug_boot', 'small'), ('safety', 'med'))(count : 157) ----------------->('persons', '2')(count : 576)0.40764331210191085
+(('class', 'unacc'), ('lug_boot', 'small'), ('persons', '2'))(count : 192) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+(('safety', 'high'), ('lug_boot', 'small'), ('persons', '2'))(count : 64) ----------------->('class', 'unacc')(count : 1210)1.0
+(('class', 'unacc'), ('persons', '2'), ('safety', 'high'))(count : 192) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+(('class', 'unacc'), ('lug_boot', 'small'), ('safety', 'high'))(count : 101) ----------------->('persons', '2')(count : 576)0.6336633663366337
+(('class', 'unacc'), ('lug_boot', 'small'), ('persons', '2'))(count : 192) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+(('class', 'unacc'), ('lug_boot', 'small'), ('persons', '2'))(count : 192) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+(('safety', 'high'), ('persons', '2'), ('class', 'unacc'))(count : 192) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+(('safety', 'high'), ('lug_boot', 'small'), ('class', 'unacc'))(count : 101) ----------------->('persons', '2')(count : 576)0.6336633663366337
+(('safety', 'high'), ('lug_boot', 'small'), ('persons', '2'))(count : 64) ----------------->('class', 'unacc')(count : 1210)1.0
+(('persons', '2'), ('safety', 'low'), ('lug_boot', 'med'))(count : 64) ----------------->('class', 'unacc')(count : 1210)1.0
+(('class', 'unacc'), ('safety', 'low'), ('lug_boot', 'med'))(count : 192) ----------------->('persons', '2')(count : 576)0.3333333333333333
+(('class', 'unacc'), ('persons', '2'), ('lug_boot', 'med'))(count : 192) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+(('class', 'unacc'), ('persons', '2'), ('safety', 'low'))(count : 192) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+(('persons', '2'), ('safety', 'med'), ('lug_boot', 'med'))(count : 64) ----------------->('class', 'unacc')(count : 1210)1.0
+(('class', 'unacc'), ('safety', 'med'), ('lug_boot', 'med'))(count : 112) ----------------->('persons', '2')(count : 576)0.5714285714285714
+(('class', 'unacc'), ('persons', '2'), ('lug_boot', 'med'))(count : 192) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+(('class', 'unacc'), ('persons', '2'), ('safety', 'med'))(count : 192) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+(('safety', 'high'), ('persons', '2'), ('lug_boot', 'med'))(count : 64) ----------------->('class', 'unacc')(count : 1210)1.0
+(('class', 'unacc'), ('safety', 'high'), ('lug_boot', 'med'))(count : 88) ----------------->('persons', '2')(count : 576)0.7272727272727273
+(('class', 'unacc'), ('persons', '2'), ('lug_boot', 'med'))(count : 192) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+(('class', 'unacc'), ('persons', '2'), ('safety', 'high'))(count : 192) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+(('class', 'unacc'), ('persons', '2'), ('lug_boot', 'med'))(count : 192) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+(('safety', 'high'), ('class', 'unacc'), ('lug_boot', 'med'))(count : 88) ----------------->('persons', '2')(count : 576)0.7272727272727273
+(('safety', 'high'), ('persons', '2'), ('class', 'unacc'))(count : 192) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+(('safety', 'high'), ('persons', '2'), ('lug_boot', 'med'))(count : 64) ----------------->('class', 'unacc')(count : 1210)1.0
+(('safety', 'low'), ('persons', '2'), ('lug_boot', 'big'))(count : 64) ----------------->('class', 'unacc')(count : 1210)1.0
+(('class', 'unacc'), ('persons', '2'), ('safety', 'low'))(count : 192) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+(('class', 'unacc'), ('safety', 'low'), ('lug_boot', 'big'))(count : 192) ----------------->('persons', '2')(count : 576)0.3333333333333333
+(('class', 'unacc'), ('persons', '2'), ('lug_boot', 'big'))(count : 192) ----------------->('safety', 'low')(count : 576)0.3333333333333333
+(('persons', '2'), ('safety', 'med'), ('lug_boot', 'big'))(count : 64) ----------------->('class', 'unacc')(count : 1210)1.0
+(('class', 'unacc'), ('safety', 'med'), ('lug_boot', 'big'))(count : 88) ----------------->('persons', '2')(count : 576)0.7272727272727273
+(('class', 'unacc'), ('persons', '2'), ('lug_boot', 'big'))(count : 192) ----------------->('safety', 'med')(count : 576)0.3333333333333333
+(('class', 'unacc'), ('persons', '2'), ('safety', 'med'))(count : 192) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+(('safety', 'high'), ('persons', '2'), ('lug_boot', 'big'))(count : 64) ----------------->('class', 'unacc')(count : 1210)1.0
+(('class', 'unacc'), ('persons', '2'), ('safety', 'high'))(count : 192) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+(('class', 'unacc'), ('lug_boot', 'big'), ('safety', 'high'))(count : 88) ----------------->('persons', '2')(count : 576)0.7272727272727273
+(('class', 'unacc'), ('persons', '2'), ('lug_boot', 'big'))(count : 192) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+(('class', 'unacc'), ('persons', '2'), ('lug_boot', 'big'))(count : 192) ----------------->('safety', 'high')(count : 576)0.3333333333333333
+(('safety', 'high'), ('class', 'unacc'), ('lug_boot', 'big'))(count : 88) ----------------->('persons', '2')(count : 576)0.7272727272727273
+(('safety', 'high'), ('persons', '2'), ('class', 'unacc'))(count : 192) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+(('safety', 'high'), ('persons', '2'), ('lug_boot', 'big'))(count : 64) ----------------->('class', 'unacc')(count : 1210)1.0
+(('lug_boot', 'small'), ('persons', '4'), ('safety', 'low'))(count : 64) ----------------->('class', 'unacc')(count : 1210)1.0
+(('class', 'unacc'), ('persons', '4'), ('safety', 'low'))(count : 192) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+(('class', 'unacc'), ('lug_boot', 'small'), ('safety', 'low'))(count : 192) ----------------->('persons', '4')(count : 576)0.3333333333333333
+(('class', 'unacc'), ('lug_boot', 'small'), ('persons', '4'))(count : 120) ----------------->('safety', 'low')(count : 576)0.5333333333333333
+(('persons', '4'), ('safety', 'low'), ('lug_boot', 'med'))(count : 64) ----------------->('class', 'unacc')(count : 1210)1.0
+(('class', 'unacc'), ('safety', 'low'), ('lug_boot', 'med'))(count : 192) ----------------->('persons', '4')(count : 576)0.3333333333333333
+(('class', 'unacc'), ('persons', '4'), ('lug_boot', 'med'))(count : 104) ----------------->('safety', 'low')(count : 576)0.6153846153846154
+(('class', 'unacc'), ('persons', '4'), ('safety', 'low'))(count : 192) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+(('safety', 'low'), ('persons', '4'), ('lug_boot', 'big'))(count : 64) ----------------->('class', 'unacc')(count : 1210)1.0
+(('class', 'unacc'), ('persons', '4'), ('safety', 'low'))(count : 192) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+(('class', 'unacc'), ('safety', 'low'), ('lug_boot', 'big'))(count : 192) ----------------->('persons', '4')(count : 576)0.3333333333333333
+(('class', 'unacc'), ('persons', '4'), ('lug_boot', 'big'))(count : 88) ----------------->('safety', 'low')(count : 576)0.7272727272727273
+(('lug_boot', 'small'), ('safety', 'low'), ('persons', 'more'))(count : 64) ----------------->('class', 'unacc')(count : 1210)1.0
+(('class', 'unacc'), ('safety', 'low'), ('persons', 'more'))(count : 192) ----------------->('lug_boot', 'small')(count : 576)0.3333333333333333
+(('class', 'unacc'), ('lug_boot', 'small'), ('persons', 'more'))(count : 138) ----------------->('safety', 'low')(count : 576)0.463768115942029
+(('class', 'unacc'), ('lug_boot', 'small'), ('safety', 'low'))(count : 192) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+(('lug_boot', 'med'), ('safety', 'low'), ('persons', 'more'))(count : 64) ----------------->('class', 'unacc')(count : 1210)1.0
+(('class', 'unacc'), ('safety', 'low'), ('lug_boot', 'med'))(count : 192) ----------------->('persons', 'more')(count : 576)0.3333333333333333
+(('class', 'unacc'), ('lug_boot', 'med'), ('persons', 'more'))(count : 96) ----------------->('safety', 'low')(count : 576)0.6666666666666666
+(('class', 'unacc'), ('safety', 'low'), ('persons', 'more'))(count : 192) ----------------->('lug_boot', 'med')(count : 576)0.3333333333333333
+(('safety', 'low'), ('lug_boot', 'big'), ('persons', 'more'))(count : 64) ----------------->('class', 'unacc')(count : 1210)1.0
+(('class', 'unacc'), ('safety', 'low'), ('persons', 'more'))(count : 192) ----------------->('lug_boot', 'big')(count : 576)0.3333333333333333
+(('class', 'unacc'), ('lug_boot', 'big'), ('persons', 'more'))(count : 88) ----------------->('safety', 'low')(count : 576)0.7272727272727273
+(('class', 'unacc'), ('safety', 'low'), ('lug_boot', 'big'))(count : 192) ----------------->('persons', 'more')(count : 576)0.3333333333333333

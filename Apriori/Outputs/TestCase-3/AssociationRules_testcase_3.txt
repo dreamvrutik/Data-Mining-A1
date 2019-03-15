@@ -1,0 +1,17 @@
+***
+TEST CASE 3
+
+MINIMUM SUPPORT = 150
+MINIMUM CONFIDENCE = 90
+
+Number of rules:  10
+('persons', '2')(count : 576) ----------------->('class', 'unacc')(count : 1210)1.0
+('persons', '2')(count : 576) ----------------->('class', 'unacc')(count : 1210)1.0
+('safety', 'low')(count : 576) ----------------->('class', 'unacc')(count : 1210)1.0
+('safety', 'low')(count : 576) ----------------->('class', 'unacc')(count : 1210)1.0
+(('persons', '2'), ('lug_boot', 'med'))(count : 192) ----------------->('class', 'unacc')(count : 1210)1.0
+(('persons', '2'), ('lug_boot', 'big'))(count : 192) ----------------->('class', 'unacc')(count : 1210)1.0
+(('persons', '2'), ('safety', 'low'))(count : 192) ----------------->('class', 'unacc')(count : 1210)1.0
+(('persons', '2'), ('safety', 'med'))(count : 192) ----------------->('class', 'unacc')(count : 1210)1.0
+(('persons', '4'), ('safety', 'low'))(count : 192) ----------------->('class', 'unacc')(count : 1210)1.0
+(('lug_boot', 'small'), ('safety', 'low'))(count : 192) ----------------->('class', 'unacc')(count : 1210)1.0

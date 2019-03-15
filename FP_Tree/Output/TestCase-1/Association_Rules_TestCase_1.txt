@@ -1,0 +1,17 @@
+***
+TEST CASE 1
+
+MIN SUPPORT = 153
+MIN CONFIDENCE = 0.9
+
+Rules Generated:
+Plasma glucose concentration a 2 hours in an oral glucose tolerance test:44-98  ---> Tested Positive for Diabetes?:No  0.92
+
+Age (years): >= 33 and <= 45  ---> Body mass index (weight in kg/(height in m)^2):>25  0.9333333333333333
+
+Tested Positive for Diabetes?:Yes  ---> Body mass index (weight in kg/(height in m)^2):>25  0.9664179104477612
+
+2-Hour serum insulin (mu U/ml):>210 Tested Positive for Diabetes?:Yes  ---> Body mass index (weight in kg/(height in m)^2):>25  0.9608938547486033
+
+
+No of Rules: 4
